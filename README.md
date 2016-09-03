@@ -32,7 +32,10 @@ $ open -a Terminal /path/to/folder
 ```
 $ git clone https://github.com/Subhendu-luv/amigo.git
 ```
-- Then go to https://localhost/phpmyadmin
+- Then go to [localhost/phpmyadmin](https://localhost/phpmyadmin)
+```
+https://localhost/phpmyadmin
+```
 - Make a new database name "amigo"
 - After that go to the directory or in your running command Prompt.
 ```
@@ -47,7 +50,7 @@ $ php artisan migrate
 ```
 $ php artisan serve
 ```
-- Open your browser go to https://localhost:8000
+- Open your browser go to [localhost:8000](https://localhost:8000)
 ```
 https://localhost:8000
 ```
