@@ -7,7 +7,7 @@
 - [XAMPP](https://www.apachefriends.org/) - XAMPP
 - [WampServer](http://www.wampserver.com/en/) - WampServer
 
-## How to Run
+## How to Setup
 
 - Go to your project directory.
 - Open Command Prompt.
@@ -26,21 +26,29 @@ Services appear in the Services submenu of each application menu, and within the
 
 Or you can also do this from the command line or a shell script:
 ```
-open -a Terminal /path/to/folder
+$ open -a Terminal /path/to/folder
 ```
-
 - Then Clone the repository or unzip.
 ```
-git clone https://github.com/Subhendu-luv/amigo.git
+$ git clone https://github.com/Subhendu-luv/amigo.git
 ```
 - Then go to https://localhost/phpmyadmin
-- make a new database name "amigo"
-- Then go to the directory or
+- Make a new database name "amigo"
+- After that go to the directory or in your running command Prompt.
 ```
-cd amigo
+$ cd amigo
 ```
-in your running command Prompt.
+- Then create your database table.
 ```
-php artisan migrate
+$ php artisan migrate
+```
+
+## Finally Run The App!
+```
+$ php artisan serve
+```
+- Open your browser go to https://localhost:8000
+```
+https://localhost:8000
 ```
 ## Thanks!
